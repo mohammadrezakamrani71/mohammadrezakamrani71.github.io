@@ -1,106 +1,281 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>محمدرضا کامرانی (MRK) | متخصص سئو و هوش مصنوعی</title>
-    <meta name="description" content="محمدرضا کامرانی، متخصص سئو و مهندسی پرامپت هوش مصنوعی.">
-    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" />
+    
+    <!-- SEO Meta Tags -->
+    <title>Mohammad Reza Kamrani | SEO Specialist & AI Strategist</title>
+    <meta name="description" content="Mohammad Reza Kamrani (MRK) is an SEO Specialist and AI Strategist combining Search Intelligence, Prompt Engineering, and Python to grow online businesses.">
+    <meta name="author" content="Mohammad Reza Kamrani">
+    <link rel="canonical" href="https://me.mohammadrezakamrani.ir/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="profile" />
+    <meta property="og:url" content="https://me.mohammadrezakamrani.ir/" />
+    <meta property="og:title" content="Mohammad Reza Kamrani | SEO Specialist & AI Strategist" />
+    <meta property="og:description" content="Bridging the gap between human intent and machine understanding through AI and SEO." />
+    <meta property="og:image" content="https://github.com/mohammadrezakamrani71/mohammadrezakamrani71.github.io/blob/main/%D9%85%D8%AD%D9%85%D8%AF%D8%B1%D8%B6%D8%A7%20%DA%A9%D8%A7%D9%85%D8%B1%D8%A7%D9%86%DB%8C%20-%20%D8%AF%D8%B1%D8%A8%D8%A7%D8%B1%D9%87%20%D9%85%D9%86.webp?raw=true" />
+    
+    <!-- Favicon -->
+    <link rel="icon" href="https://github.com/mohammadrezakamrani71/mohammadrezakamrani71.github.io/blob/main/Favicon_mohammadreza-kamrani_512_512.webp?raw=true">
+    
+    <!-- Fonts & CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Structured Data: Person (International Entity SEO) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Mohammad Reza Kamrani",
+      "alternateName": "MRK",
+      "url": "https://me.mohammadrezakamrani.ir/",
+      "image": "https://github.com/mohammadrezakamrani71/mohammadrezakamrani71.github.io/blob/main/%D9%85%D8%AD%D9%85%D8%AF%D8%B1%D8%B6%D8%A7%20%DA%A9%D8%A7%D9%85%D8%B1%D8%A7%D9%86%DB%8C%20-%20%D8%AF%D8%B1%D8%A8%D8%A7%D8%B1%D9%87%20%D9%85%D9%86.webp?raw=true",
+      "jobTitle": "SEO Specialist & AI Strategist",
+      "description": "Mohammad Reza Kamrani is an SEO Specialist and AI Strategist combining Search Intelligence, Prompt Engineering, and Python to grow online businesses.",
+      "knowsAbout": [
+        "Search Engine Optimization (SEO)",
+        "Artificial Intelligence (AI)",
+        "Prompt Engineering",
+        "Digital Marketing",
+        "Python",
+        "Automation"
+      ],
+      "email": "mailto:mohammadrezakamrani71@gmail.com",
+      "sameAs": [
+        "http://x.com/@MR_Kamrani71",
+        "https://www.youtube.com/@mohammadreza_kamrani",
+        "https://t.me/mohammadreza_kamrani",
+        "https://www.instagram.com/mohammadreza_kamrani71/",
+        "https://www.aparat.com/MohammadReza_Kamrani",
+        "https://www.facebook.com/MR.Kamrani71/",
+        "https://wa.me/mohammadrezakamrani"
+      ]
+    }
+    </script>
+
     <style>
-        :root { --bg-deep: #0f071c; --bg-card: #1a102f; --accent-gold: #d4af37; --text-main: #f3f0ff; --text-muted: #b8b2d1; }
-        * { margin:0; padding:0; box-sizing:border-box; }
-        body { font-family: 'Vazirmatn', sans-serif; background-color: var(--bg-deep); color: var(--text-main); line-height: 1.8; }
-        a { text-decoration:none; color:inherit; }
-        header { display:flex; justify-content:space-between; align-items:center; padding:1.5rem 5%; background:rgba(15,7,28,0.9); border-bottom:1px solid rgba(212,175,55,0.2); position:fixed; top:0; width:100%; z-index:100; }
-        .logo { font-size:1.6rem; font-weight:800; color:var(--accent-gold); }
-        nav ul { display:flex; list-style:none; gap:2rem; }
-        nav ul a:hover { color:var(--accent-gold); }
-        .hero { min-height:100vh; display:flex; align-items:center; justify-content:space-between; padding:8rem 5% 4rem; max-width:1200px; margin:0 auto; gap:3rem; flex-wrap:wrap-reverse; }
-        .hero-content h1 { font-size:2.8rem; } .hero-content h1 span { color:var(--accent-gold); }
-        .hero-content h2 { font-size:1.3rem; color:var(--text-muted); margin:1rem 0; }
-        .hero-img img { width:260px; height:260px; border-radius:50%; border:4px solid var(--accent-gold); object-fit:cover; }
-        section { padding:5rem 5%; max-width:1200px; margin:0 auto; }
-        .section-title h2 { text-align:center; font-size:2rem; color:var(--accent-gold); margin-bottom:3rem; }
-        .card-box { background:var(--bg-card); border:1px solid rgba(212,175,55,0.15); padding:2.5rem; border-radius:15px; }
-        .skills-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:2rem; }
-        .skill-item { background:var(--bg-card); border:1px solid rgba(212,175,55,0.15); padding:2rem; border-radius:15px; text-align:center; }
-        .skill-item i { font-size:2.5rem; color:var(--accent-gold); margin-bottom:1rem; }
-        .btn { padding:0.75rem 1.75rem; border-radius:50px; font-weight:bold; display:inline-block; margin-top:1rem; background:var(--accent-gold); color:var(--bg-deep); }
-        .social-links { display:flex; gap:1.5rem; font-size:1.5rem; color:var(--accent-gold); margin-top:1.5rem; }
-        footer { text-align:center; padding:2rem; border-top:1px solid rgba(212,175,55,0.1); color:var(--text-muted); }
+        body { font-family: 'Poppins', sans-serif; background-color: #0f0518; color: #e2e8f0; overflow-x: hidden; }
+        .gradient-text { background: linear-gradient(to right, #eab308, #fff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .glow-yellow { box-shadow: 0 0 30px rgba(234, 179, 8, 0.3); }
+        .glow-purple { box-shadow: 0 0 30px rgba(139, 92, 246, 0.3); }
+        .card-hover { transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+        .card-hover:hover { transform: translateY(-10px); border-color: #eab308; box-shadow: 0 20px 50px rgba(0,0,0,0.5); }
+        .social-card:hover .social-icon { transform: scale(1.2) rotate(5deg); }
+        .social-icon { transition: transform 0.3s ease; }
+        
+        /* Animated Background Blobs */
+        .blob { position: absolute; filter: blur(100px); opacity: 0.3; z-index: 0; animation: blob-move 10s infinite alternate; }
+        @keyframes blob-move { 0% { transform: translate(0, 0) scale(1); } 100% { transform: translate(50px, -50px) scale(1.2); } }
+        
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #0f0518; }
+        ::-webkit-scrollbar-thumb { background: #eab308; border-radius: 10px; }
     </style>
 </head>
-<body>
-    <header>
-        <div class="logo">MRK.</div>
-        <nav><ul><li><a href="https://mohammadrezakamrani.ir/about.html">درباره من</a></li><li><a href="#skills">مهارت‌ها</a></li><li><a href="#projects">پروژه‌ها</a></li><li><a href="#contact">ارتباط</a></li></ul></nav>
-    </header>
+<body class="relative">
 
-    <section class="hero">
-        <div class="hero-content">
-            <h1>محمدرضا کامرانی <span>(MRK)</span></h1>
-            <h2>متخصص سئو و مهندسی هوش مصنوعی</h2>
-            <p>با ترکیب مهندسی پرامپت و استراتژی سئو، به کسب‌وکارها کمک می‌کنم تا هزینه‌ها را کاهش و بازدهی را افزایش دهند.</p>
-            <a href="#contact" class="btn">ارتباط با من</a>
+    <!-- Background Blobs -->
+    <div class="blob bg-yellow-600 w-96 h-96 top-0 right-0 rounded-full"></div>
+    <div class="blob bg-purple-600 w-96 h-96 bottom-0 left-0 rounded-full" style="animation-delay: 5s;"></div>
+
+    <!-- Navbar -->
+    <nav class="fixed w-full z-50 top-0 start-0 border-b border-white/5 bg-[#0f0518]/80 backdrop-blur-md transition-all">
+        <div class="max-w-6xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="https://me.mohammadrezakamrani.ir" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <img src="https://github.com/mohammadrezakamrani71/mohammadrezakamrani71.github.io/blob/main/Favicon_mohammadreza-kamrani_512_512.webp?raw=true" class="h-10 w-10 rounded-full" alt="MRK Logo">
+                <span class="self-center text-xl font-bold whitespace-nowrap text-white">Mohammad Reza <span class="text-yellow-400">Kamrani</span></span>
+            </a>
+            <div class="hidden md:flex gap-8 text-sm font-medium text-gray-300">
+                <a href="#about" class="hover:text-yellow-400 transition">About</a>
+                <a href="#expertise" class="hover:text-yellow-400 transition">Expertise</a>
+                <a href="#methodology" class="hover:text-yellow-400 transition">Methodology</a>
+                <a href="#contact" class="hover:text-yellow-400 transition">Contact</a>
+            </div>
+            <a href="mailto:mohammadrezakamrani71@gmail.com" class="hidden md:block bg-yellow-500 hover:bg-yellow-400 text-slate-900 font-bold px-4 py-2 rounded-lg text-sm transition glow-yellow">
+                Get in Touch
+            </a>
         </div>
-        <div class="hero-img"><img src="https://raw.githubusercontent.com/mohammadrezakamrani71/mohammadreza-kamrani/refs/heads/main/%D9%85%D8%AD%D9%85%D8%AF%D8%B1%D8%B6%D8%A7%20%DA%A9%D8%A7%D9%85%D8%B1%D8%A7%D9%86%DB%8C%20-%20%D8%AF%D8%B1%D8%A8%D8%A7%D8%B1%D9%87%20%D9%85%D9%86.webp" alt="Profile"></div>
-    </section>
+    </nav>
 
-    <section id="about">
-        <div class="section-title"><h2>درباره من</h2></div>
-        <div class="card-box"><p>محمدرضا کامرانی (MRK)، دانش‌آموخته مدیریت صنعتی و متخصص در حوزه سئو و دیجیتال مارکتینگ است.</p><p>او فعالیت حرفه‌ای خود را از سال ۱۴۰۱ در مجموعه 'وانشان' آغاز کرد و با ترکیب دانش برنامه‌نویسی پایتون و ابزارهای نوین هوش مصنوعی، رویکردی جدید در استراتژی‌های محتوایی ایجاد کرده است.</p></div>
-    </section>
-
-    <section id="skills">
-        <div class="section-title"><h2>تخصص و مهارت‌ها</h2></div>
-        <div class="skills-grid">
-                <div class="skill-item">
-                    <i class="fa-solid fa-magnifying-glass-chart"></i>
-                    <h3>استراتژی سئو</h3>
-                    <p>بهینه‌سازی فنی، ساختار محتوا و رتبه‌بندی گوگل</p>
+    <!-- Hero Section -->
+    <section class="min-h-screen flex items-center relative pt-20 z-10">
+        <div class="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+            <div class="text-center md:text-left">
+                <div class="inline-block px-4 py-1 mb-6 text-xs font-semibold tracking-wider text-yellow-400 uppercase bg-slate-800/50 rounded-full border border-yellow-500/20">
+                    Search Intelligence & AI Strategist
                 </div>
-            
-                <div class="skill-item">
-                    <i class="fa-solid fa-brain"></i>
-                    <h3>مهندسی پرامپت</h3>
-                    <p>طراحی پرامپت‌های هوشمند جهت اتوماسیون فرآیندها</p>
-                </div>
-            
-                <div class="skill-item">
-                    <i class="fa-brands fa-python"></i>
-                    <h3>برنامه‌نویسی پایتون</h3>
-                    <p>توسعه اسکریپت‌های تحلیلی و ابزارهای سئو</p>
-                </div>
-            
-                <div class="skill-item">
-                    <i class="fa-brands fa-wordpress"></i>
-                    <h3>وردپرس</h3>
-                    <p>مدیریت، بهینه‌سازی و طراحی سایت‌های وردپرسی</p>
+                <h1 class="text-5xl md:text-7xl font-extrabold mb-6 leading-tight text-white">
+                    Hi, I'm <span class="gradient-text block">Mohammad Reza</span>
+                </h1>
+                <p class="text-lg text-slate-400 mb-10 max-w-xl mx-auto md:mx-0">
+                    I bridge the gap between human intent and machine understanding. By combining advanced SEO strategies with Artificial Intelligence and Prompt Engineering, I help businesses get discovered and grow in the digital age.
+                </p>
+                <div class="flex flex-wrap gap-4 justify-center md:justify-start">
+                    <a href="#contact" class="bg-yellow-500 hover:bg-yellow-400 text-slate-900 font-bold px-8 py-4 rounded-xl transition glow-yellow flex items-center gap-2">
+                        Connect With Me <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="https://mohammadrezakamrani.ir" class="bg-slate-800/50 hover:bg-slate-700 border border-slate-700 text-white font-bold px-8 py-4 rounded-xl transition">
+                        Visit Persian Site
+                    </a>
                 </div>
             </div>
-    </section>
-
-    <section id="projects">
-        <div class="section-title"><h2>پروژه‌ها و نمونه‌کارها</h2></div>
-        <div class="skills-grid"></div>
-    </section>
-
-    
-
-    <section id="contact">
-        <div class="section-title"><h2>راه‌های ارتباطی</h2></div>
-        <div class="card-box" style="text-align:center;">
-            <p>ایمیل: mohammadrezakamrani71@gmail.com | تلفن: 09358527483</p>
-            <div class="social-links" style="justify-content:center;">
-                <a href="https://www.instagram.com/mohammadreza_kamrani71/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://x.com/@MRK_kami" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="https://t.me/mohammadreza_kamrani" target="_blank"><i class="fa-brands fa-telegram"></i></a>
-                <a href="https://www.youtube.com/@mohammadreza_kamrani" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <div class="flex justify-center md:justify-end relative">
+                <div class="absolute inset-0 bg-gradient-to-tr from-yellow-500 to-purple-600 rounded-full blur-3xl opacity-30"></div>
+                <img src="https://github.com/mohammadrezakamrani71/mohammadrezakamrani71.github.io/blob/main/mohammadreza-kamrani19.jpg?raw=true" 
+                     class="relative w-72 h-72 md:w-96 md:h-96 object-cover rounded-3xl border-4 border-white/10 shadow-2xl rotate-3 hover:rotate-0 transition duration-500" 
+                     alt="Mohammad Reza Kamrani">
             </div>
         </div>
     </section>
 
-    <footer><p>تمامی حقوق محفوظ است. طراحی و توسعه توسط <span>محمدرضا کامرانی (MRK)</span></p></footer>
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-[#13131e] relative z-10">
+        <div class="container mx-auto px-6 max-w-4xl text-center">
+            <h2 class="text-4xl font-bold text-white mb-8">Who is <span class="text-yellow-400">MRK</span>?</h2>
+            <p class="text-lg text-slate-400 leading-relaxed mb-6">
+                Mohammad Reza Kamrani (MRK) holds a degree in Industrial Management and is a specialist in SEO, Artificial Intelligence, and Digital Marketing. He began his professional journey in 2022 and has since created a new approach to content and SEO strategies by combining Python programming, Prompt Engineering, and modern AI tools.
+            </p>
+            <p class="text-lg text-slate-400 leading-relaxed">
+                Beyond practical projects, he has been involved in designing educational courses focused on "Personal Branding" and has worked as a competency-based interviewer. His mission is to transform business expertise into a commercial anchor point in the digital world.
+            </p>
+        </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section id="expertise" class="py-20 relative z-10">
+        <div class="container mx-auto px-6 max-w-6xl">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-white mb-4">Core <span class="text-yellow-400">Expertise</span></h2>
+                <p class="text-slate-400">A blend of technical precision and creative strategy.</p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="card-hover bg-slate-800/30 border border-slate-700 rounded-2xl p-8 text-center backdrop-blur-sm">
+                    <div class="w-16 h-16 mx-auto mb-6 rounded-full bg-yellow-500/10 flex items-center justify-center text-yellow-400 text-2xl">
+                        <i class="fa-solid fa-magnifying-glass-chart"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Advanced SEO</h3>
+                    <p class="text-sm text-slate-400">Technical SEO, Semantic Search, Entity Building, and Search Intent Optimization.</p>
+                </div>
+                <div class="card-hover bg-slate-800/30 border border-slate-700 rounded-2xl p-8 text-center backdrop-blur-sm">
+                    <div class="w-16 h-16 mx-auto mb-6 rounded-full bg-purple-500/10 flex items-center justify-center text-purple-400 text-2xl">
+                        <i class="fa-solid fa-robot"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">AI Strategy</h3>
+                    <p class="text-sm text-slate-400">Integrating LLMs and AI tools into business processes for smarter decision-making.</p>
+                </div>
+                <div class="card-hover bg-slate-800/30 border border-slate-700 rounded-2xl p-8 text-center backdrop-blur-sm">
+                    <div class="w-16 h-16 mx-auto mb-6 rounded-full bg-blue-500/10 flex items-center justify-center text-blue-400 text-2xl">
+                        <i class="fa-solid fa-terminal"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Prompt Engineering</h3>
+                    <p class="text-sm text-slate-400">Designing precise interaction frameworks with AI to generate high-quality outputs.</p>
+                </div>
+                <div class="card-hover bg-slate-800/30 border border-slate-700 rounded-2xl p-8 text-center backdrop-blur-sm">
+                    <div class="w-16 h-16 mx-auto mb-6 rounded-full bg-green-500/10 flex items-center justify-center text-green-400 text-2xl">
+                        <i class="fa-brands fa-python"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Python & Automation</h3>
+                    <p class="text-sm text-slate-400">Data scraping, workflow automation (n8n), and custom SEO tools development.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Methodology Section -->
+    <section id="methodology" class="py-20 bg-[#13131e] relative z-10">
+        <div class="container mx-auto px-6 max-w-6xl">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-white mb-4">My <span class="text-yellow-400">Methodology</span></h2>
+                <p class="text-slate-400">Three pillars to build a lasting digital presence.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-slate-900/50 border border-slate-800 rounded-2xl p-8 hover:border-yellow-500/50 transition">
+                    <i class="fa-solid fa-chess-king text-3xl text-yellow-500 mb-6"></i>
+                    <h3 class="text-2xl font-bold text-white mb-4">Strategy Architect</h3>
+                    <p class="text-slate-400">Developing comprehensive content roadmaps and brand positioning strategies to enhance digital authority.</p>
+                </div>
+                <div class="bg-slate-900/50 border border-slate-800 rounded-2xl p-8 hover:border-purple-500/50 transition">
+                    <i class="fa-solid fa-calendar-check text-3xl text-purple-500 mb-6"></i>
+                    <h3 class="text-2xl font-bold text-white mb-4">Calendar Engineer</h3>
+                    <p class="text-slate-400">Designing smart content calendars to ensure consistent, purposeful presence across blogs and social media.</p>
+                </div>
+                <div class="bg-slate-900/50 border border-slate-800 rounded-2xl p-8 hover:border-blue-500/50 transition">
+                    <i class="fa-solid fa-wand-magic-sparkles text-3xl text-blue-500 mb-6"></i>
+                    <h3 class="text-2xl font-bold text-white mb-4">Impact Designer</h3>
+                    <p class="text-slate-400">Crafting compelling multimedia content that translates the brand's unique voice to the target audience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Socials Section -->
+    <section id="contact" class="py-20 relative z-10">
+        <div class="container mx-auto px-6 max-w-4xl text-center">
+            <h2 class="text-4xl font-bold text-white mb-4">Let's <span class="text-yellow-400">Connect</span></h2>
+            <p class="text-slate-400 mb-12">I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
+            
+            <a href="mailto:mohammadrezakamrani71@gmail.com" class="inline-flex items-center gap-3 bg-yellow-500 hover:bg-yellow-400 text-slate-900 font-bold px-8 py-4 rounded-xl transition glow-yellow mb-16">
+                <i class="fa-solid fa-envelope text-xl"></i> mohammadrezakamrani71@gmail.com
+            </a>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <!-- X / Twitter -->
+                <a href="http://x.com/@MR_Kamrani71" target="_blank" class="social-card flex flex-col items-center gap-3 bg-slate-800/50 border border-slate-700 p-6 rounded-2xl hover:border-slate-500 transition">
+                    <i class="fa-brands fa-x-twitter text-3xl text-white social-icon"></i>
+                    <span class="text-sm text-slate-400">Twitter / X</span>
+                </a>
+                <!-- YouTube -->
+                <a href="https://www.youtube.com/@mohammadreza_kamrani" target="_blank" class="social-card flex flex-col items-center gap-3 bg-slate-800/50 border border-slate-700 p-6 rounded-2xl hover:border-red-500 transition">
+                    <i class="fa-brands fa-youtube text-3xl text-red-500 social-icon"></i>
+                    <span class="text-sm text-slate-400">YouTube</span>
+                </a>
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/mohammadreza_kamrani71/" target="_blank" class="social-card flex flex-col items-center gap-3 bg-slate-800/50 border border-slate-700 p-6 rounded-2xl hover:border-pink-500 transition">
+                    <i class="fa-brands fa-instagram text-3xl text-pink-500 social-icon"></i>
+                    <span class="text-sm text-slate-400">Instagram</span>
+                </a>
+                <!-- Facebook -->
+                <a href="https://www.facebook.com/MR.Kamrani71/" target="_blank" class="social-card flex flex-col items-center gap-3 bg-slate-800/50 border border-slate-700 p-6 rounded-2xl hover:border-blue-600 transition">
+                    <i class="fa-brands fa-facebook text-3xl text-blue-600 social-icon"></i>
+                    <span class="text-sm text-slate-400">Facebook</span>
+                </a>
+                <!-- Telegram -->
+                <a href="https://t.me/mohammadreza_kamrani" target="_blank" class="social-card flex flex-col items-center gap-3 bg-slate-800/50 border border-slate-700 p-6 rounded-2xl hover:border-blue-400 transition">
+                    <i class="fa-brands fa-telegram text-3xl text-blue-400 social-icon"></i>
+                    <span class="text-sm text-slate-400">Telegram</span>
+                </a>
+                <!-- WhatsApp -->
+                <a href="https://wa.me/mohammadrezakamrani" target="_blank" class="social-card flex flex-col items-center gap-3 bg-slate-800/50 border border-slate-700 p-6 rounded-2xl hover:border-green-500 transition">
+                    <i class="fa-brands fa-whatsapp text-3xl text-green-500 social-icon"></i>
+                    <span class="text-sm text-slate-400">WhatsApp</span>
+                </a>
+                <!-- Aparat -->
+                <a href="https://www.aparat.com/MohammadReza_Kamrani" target="_blank" class="social-card flex flex-col items-center gap-3 bg-slate-800/50 border border-slate-700 p-6 rounded-2xl hover:border-red-400 transition">
+                    <i class="fa-solid fa-video text-3xl text-red-400 social-icon"></i>
+                    <span class="text-sm text-slate-400">Aparat</span>
+                </a>
+                <!-- Persian Site -->
+                <a href="https://mohammadrezakamrani.ir" target="_blank" class="social-card flex flex-col items-center gap-3 bg-slate-800/50 border border-slate-700 p-6 rounded-2xl hover:border-yellow-500 transition">
+                    <i class="fa-solid fa-globe text-3xl text-yellow-500 social-icon"></i>
+                    <span class="text-sm text-slate-400">Persian Site</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#0a0212] py-8 border-t border-slate-800 relative z-10">
+        <div class="container mx-auto px-6 text-center text-slate-500 text-sm">
+            <p>© <span id="year"></span> Mohammad Reza Kamrani. Designed with Intelligence.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
